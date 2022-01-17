@@ -1,0 +1,35 @@
+
+#grid{
+    display: grid;
+    grid-template-columns: 40px auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+#objeto1{
+background-color: blue;
+}
+#objeto2{
+    background-color: blue;
+}
+#objeto3{
+   background-color: rgb(152, 28, 224);
+   grid-row: 1/3;
+   grid-column: 3/4;
+}
+#objeto4{
+    background-color: yellow;
+}
+
+#objeto7{
+    background-color: gray;
+    grid-row: 2/4;
+   grid-column: 4/5;
+}
+#objeto8{
+    background-color: rgb(255, 255, 255);
+}
+#objeto9{
+    background-color: skyblue;
+}
+#objeto10{
+    background-color: red;
+}
